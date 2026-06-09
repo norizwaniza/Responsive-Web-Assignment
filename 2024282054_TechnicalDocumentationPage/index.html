@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>JS Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#Data_types">Data types</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article>
+        <p>JavaScript is a cross-platform, object-oriented scripting language.</p>
+        <p>It is a small and lightweight language. Inside a host environment, JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+        <code>console.log("Hello JS");</code>
+      </article>
+    </section>
+
+    <section class="main-section" id="JavaScript_and_Java">
+      <header>JavaScript and Java</header>
+      <article>
+        <p>JavaScript and Java are similar in some ways but fundamentally different in some others.</p>
+        <p>The JavaScript language resembles Java but does not have Java's static typing and strong type checking.</p>
+        <code>var x = 5;</code>
+        <ul>
+          <li>Client-side scripting</li>
+          <li>Server-side scripting</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="Hello_world">
+      <header>Hello world</header>
+      <article>
+        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+        <code>function greetMe(yourName) { alert("Hello " + yourName); }</code>
+        <p>This will display an alert in your browser.</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <article>
+        <p>You use variables as symbolic names for values in your application.</p>
+        <p>The names of variables, called identifiers, conform to certain rules.</p>
+        <code>let userName = "Izwaniza";</code>
+        <ul>
+          <li>Must start with a letter, underscore (_), or dollar sign ($).</li>
+          <li>Case sensitive.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="Data_types">
+      <header>Data types</header>
+      <article>
+        <p>The latest ECMAScript standard defines seven data types:</p>
+        <ul>
+          <li>Boolean</li>
+          <li>Number</li>
+          <li>String</li>
+        </ul>
+        <code>typeof 42; // "number"</code>
+        <p>All types except objects define immutable values.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
