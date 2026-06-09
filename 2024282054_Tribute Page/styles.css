@@ -1,0 +1,73 @@
+/* General Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+#main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Responsive Image Rules - Tests 16, 17, 18, 19 */
+#image {
+    display: block;      /* Required for centering with margin auto */
+    max-width: 100%;    /* Resizes relative to parent */
+    height: auto;       /* Maintains aspect ratio */
+    margin: 0 auto;     /* Centers within #img-div */
+    border-radius: 4px;
+}
+
+#img-div {
+    background: #eee;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+#img-caption {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+/* Information Layout */
+#tribute-info {
+    text-align: left;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    border-left: 5px solid #ccc;
+    padding-left: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+#tribute-link {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
